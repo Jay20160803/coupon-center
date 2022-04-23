@@ -22,6 +22,7 @@
 
     <modules>
         <module>coupon-template-serv</module>
+        <module>coupon-calculation-serv</module>
     </modules>
 
     <!--定义各依赖的版本-->
