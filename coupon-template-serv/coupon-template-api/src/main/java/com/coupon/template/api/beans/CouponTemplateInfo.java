@@ -1,11 +1,12 @@
 package com.coupon.template.api.beans;
 
 import com.coupon.template.api.beans.rules.TemplateRule;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import javax.validation.constraints.NotNull;
 
 
 //import javax.validation.constraints.NotNull;

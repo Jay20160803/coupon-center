@@ -6,11 +6,11 @@ import com.coupon.template.api.beans.CouponTemplateInfo;
 import com.coupon.template.api.beans.PagedCouponTemplateInfo;
 import com.coupon.template.api.beans.TemplateSearchParams;
 import com.coupon.template.service.intf.CouponTemplateService;
-import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.Collection;
 import java.util.Map;
 

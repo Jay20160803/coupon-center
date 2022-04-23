@@ -11,13 +11,13 @@ spring:
   datasource:
     # mysql数据源
     username: root
-#    password:
-    url: jdbc:mysql://127.0.0.1:3306/geekbang_coupon_db?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    password: Abc258258!@#
+    url: jdbc:mysql://121.36.192.114:3306/coupon_db?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     # 连接池
     hikari:
-      pool-name: GeekbangCouponHikari
+      pool-name: couponHikari
       connection-timeout: 5000
       idle-timeout: 30000
       maximum-pool-size: 10
@@ -36,4 +36,4 @@ spring:
 
 logging:
   level:
-    com.broadview.coupon: debug
+    com.coupon: debug
