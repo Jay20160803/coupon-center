@@ -5,8 +5,10 @@ server:
     include-message: always
 
 spring:
-  main:
-    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.3.123.94:8848
   application:
     # 定义项目名称
     name: coupon-template-serv

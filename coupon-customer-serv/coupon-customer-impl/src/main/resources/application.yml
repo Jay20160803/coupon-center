@@ -5,8 +5,10 @@ server:
     include-message: always
 
 spring:
-  main:
-    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.3.123.94:8848
   application:
     name: coupon-customer-serv
   datasource:
@@ -36,5 +38,5 @@ spring:
     open-in-view: false
 logging:
   level:
-    com.broadview.coupon: debug
+    com.coupon: debug
 

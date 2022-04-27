@@ -7,6 +7,10 @@ server:
 spring:
   application:
     name: coupon-calculation-serv
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.3.123.94:8848
 
 logging:
   level:
