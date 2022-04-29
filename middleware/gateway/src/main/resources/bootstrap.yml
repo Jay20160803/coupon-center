@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 119.3.123.94:8848
+        file-extension: yml
+        group: DEFAULT_GROUP
+        timeout: 5000
+        config-long-poll-timeout: 1000
+        config-retry-time: 100000
+        max-retry: 3
+        refresh-enabled: true
+        enable-remote-sync-config: true
+        extension-configs:
+          - dataId: redis-config.yml
+            group: EXT_GRPUP
+            refresh: true
